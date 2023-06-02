@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar } from './components/NavBar';
+import { Banner } from "./components/Banner";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { MaterialMaximise } from "./components/MaterialMaximise";
+import { BigSoipa } from "./components/BigSoipa";
+import { TrustExchange } from "./components/TrustExchange";
+import { Footer } from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Routes>
+      <Route path='/' element={<div><Banner /><Skills /><Projects /><Contact /></div>} />
+      <Route path='/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
+      <Route path='/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
+      <Route path='/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
