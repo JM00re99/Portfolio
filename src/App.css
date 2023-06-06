@@ -62,36 +62,37 @@ p.danger {
 }
 
 nav.navbar {
-  padding: 0px 0;
+  padding: 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
-  transition: 0.32 ease-in-out;
+  transition: 0.32s ease-in-out;
   background: linear-gradient(60deg, #f96318, #f96318 15%, #a0e9ff 15%, #a0e9ff);
 }
 
-nav.navbar.scrolled{
-  padding: 0px 0;
+nav.navbar.scrolled {
+  padding: 0;
   background: linear-gradient(60deg, #f96318, #f96318 15%, #a0e9ff 15%, #a0e9ff);
 }
 
 @media (max-width: 767px) {
-  /* Styles for mobile devices */
   nav.navbar {
-     padding: 0px 0;
-     position: fixed;
-     width: 100%;
-     top: 0;
-     z-index: 9999;
-     transition: 0.32 ease-in-out;
-     background: linear-gradient(60deg, #f96318, #f96318 20%, #a0e9ff 20%, #a0e9ff);
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    background: linear-gradient(60deg, #f96318, #f96318 20%, #a0e9ff 20%, #a0e9ff);
   }
 
   nav.navbar.scrolled {
-   padding: 0px 0;
-   background: linear-gradient(60deg, #f96318, #f96318 20%, #a0e9ff 20%, #a0e9ff);
+    padding: 0;
+    background: linear-gradient(60deg, #f96318, #f96318 20%, #a0e9ff 20%, #a0e9ff);
   }
+}
+
 /* for Logo size */
 nav.navbar a.navbar-brand{
   width: 9%;
