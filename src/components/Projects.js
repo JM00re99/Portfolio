@@ -35,7 +35,7 @@ export const Projects = () => {
                         <h3>Big Siopa</h3>
                         <img src={projImg2} alt="Big Soipa" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
-                        <Button href="/* /index.html 200/ProjectBigSoipa" >See Full Project</Button>
+                        <Button href="/" >See Full Project</Button>
                       </Col>
                       <Col md={4}>
                         <h3>Trust Exchange</h3>
