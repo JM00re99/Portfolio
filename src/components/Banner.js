@@ -63,14 +63,16 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={Selfie} alt="Selfie Img" style={{ width: '600px', height: 'auto' }} />
-                </div>}
-            </TrackVisibility>
-          </Col>
+          <Row className="justify-content-center justify-content-md-start">
+              <Col xs={12} md={6} xl={5}>
+                <TrackVisibility>
+                  {({ isVisible }) =>
+                    <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                      <img src={Selfie} alt="Selfie Img" style={{ width: '600px', height: 'auto' }} />
+                    </div>
+                  }
+                </TrackVisibility>
+              </Col>
         </Row>
       </Container>
     </section>
