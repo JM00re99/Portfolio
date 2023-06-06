@@ -29,19 +29,19 @@ export const Projects = () => {
                       <h3>Material Maximise</h3>
                         <img src={projImg1} alt="Material Maximise" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
-                        <Button href="/ProjectMaterialMaxisime" >See Full Project</Button>
+                        <Button href="https://main--jackmooreportfolio.netlify.app//ProjectMaterialMaxisime" >See Full Project</Button>
                       </Col>
                       <Col md={4}>
                         <h3>Big Siopa</h3>
                         <img src={projImg2} alt="Big Soipa" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
-                        <Button href="/ProjectBigSoipa" >See Full Project</Button>
+                        <Button href="https://main--jackmooreportfolio.netlify.app//ProjectBigSoipa" >See Full Project</Button>
                       </Col>
                       <Col md={4}>
                         <h3>Trust Exchange</h3>
                         <img src={projImg3} alt="Trust Exchange" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
-                        <Button href="/ProjectTrustExchange">See Full Project</Button>
+                        <Button href="https://main--jackmooreportfolio.netlify.app//ProjectTrustExchange">See Full Project</Button>
                       </Col>
                     </Row>
                     </Tab.Pane>
