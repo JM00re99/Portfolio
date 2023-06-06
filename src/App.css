@@ -528,18 +528,20 @@ border-right: 0.08em solid #666;
   margin-top: 2%;
 }
 /************ Footer ************/
-.Footer{
-  padding-top: .6% ;
-  transition: 0.32 ease-in-out;
+.Footer {
+  padding-top: 0.6%;
+  transition: 0.32s ease-in-out;
   background: linear-gradient(60deg, #a0e9ff, #a0e9ff 20%, #f96318 20%, #f96318);
 }
 
 @media (max-width: 767px) {
-  .Footer{
-  padding-top: .6% ;
-  transition: 0.32 ease-in-out;
-  background:  #a0e9ff;
+  .Footer {
+    padding-top: 0.6%;
+    transition: 0.32s ease-in-out;
+    background: #a0e9ff;
+  }
 }
+
 
 .Footer h5{
   margin-left: 10%;
