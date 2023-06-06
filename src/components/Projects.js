@@ -30,18 +30,21 @@ export const Projects = () => {
                         <img src={projImg1} alt="Material Maximise" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectMaterialMaxisime" >See Full Project</Button>
+                         <br></br><br></br>
                       </Col>
                       <Col md={4}>
                         <h3>Big Siopa</h3>
                         <img src={projImg2} alt="Big Soipa" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectBigSoipa" >See Full Project</Button>
+                         <br></br><br></br>
                       </Col>
                       <Col md={4}>
                         <h3>Trust Exchange</h3>
                         <img src={projImg3} alt="Trust Exchange" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectTrustExchange">See Full Project</Button>
+                         <br></br><br></br>
                       </Col>
                     </Row>
                     </Tab.Pane>
