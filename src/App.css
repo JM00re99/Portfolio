@@ -84,12 +84,12 @@ nav.navbar.scrolled {
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
-    background: linear-gradient(60deg, #f96318, #f96318 40%, #a0e9ff 40%, #a0e9ff);
+    background: linear-gradient(60deg, #f96318, #f96318 35%, #a0e9ff 35%, #a0e9ff);
   }
 
   nav.navbar.scrolled {
     padding: 0;
-    background: linear-gradient(60deg, #f96318, #f96318 40%, #a0e9ff 40%, #a0e9ff);
+    background: linear-gradient(60deg, #f96318, #f96318 35%, #a0e9ff 35%, #a0e9ff);
   }
 }
 
@@ -532,6 +532,13 @@ border-right: 0.08em solid #666;
   padding-top: .6% ;
   transition: 0.32 ease-in-out;
   background: linear-gradient(60deg, #a0e9ff, #a0e9ff 20%, #f96318 20%, #f96318);
+}
+
+@media (max-width: 767px) {
+  padding-top: .6% ;
+  transition: 0.32 ease-in-out;
+  background: linear-gradient(60deg, #a0e9ff, #a0e9ff 40%, #f96318 40%, #f96318);
+  
 }
 
 .Footer h5{
