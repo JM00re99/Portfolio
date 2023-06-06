@@ -1,5 +1,4 @@
-import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { Container, Row, Col, Tab, Button } from "react-bootstrap";
 import projImg1 from "../assets/img/MaterialMaximise.png";
 import projImg2 from "../assets/img/BigSoipa.png";
 import projImg3 from "../assets/img/TrustExchange.png";
@@ -8,25 +7,6 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Material Maximise",
-      description: "HTML, CSS, PHP, Bootstrap",
-      imgUrl: projImg1,
-      url: "/ProjectMaterialMaxisime" // Add the URL here
-    },
-    {
-      title: "Big Siopa",
-      description: "Android Studio",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Trust Exchange",
-      description: "Figma",
-      imgUrl: projImg3,
-    },
-    
-  ];
 
   return (
     <section className="project" id="projects">
