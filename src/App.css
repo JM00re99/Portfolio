@@ -590,6 +590,15 @@ border-right: 0.08em solid #666;
 
 }
 
+@media (max-width: 767px) {
+  .TrustExchangeSkillsUsed {
+  background-color:#61c5b8;
+  padding-top: 30%;
+  padding-bottom: 2%;
+
+  }
+}
+
 .TrustExchangeSkillsUsed h2 {
  
   color: white;
