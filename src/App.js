@@ -17,9 +17,9 @@ function App() {
       <NavBar />
       <Routes>
       <Route path='/' element={<div><Banner /><Skills /><Projects /><Contact /></div>} />
-      <Route path='https://main--jackmooreportfolio.netlify.app//ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
-      <Route path='https://main--jackmooreportfolio.netlify.app//ProjectBigSoipa' element={<div><BigSoipa /></div>} />
-      <Route path='https://main--jackmooreportfolio.netlify.app//ProjectTrustExchange' element={<div><TrustExchange /></div>} />
+      <Route path='/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
+      <Route path='/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
+      <Route path='/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
       </Routes>
       <Footer />
     </div>
