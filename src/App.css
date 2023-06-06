@@ -535,10 +535,10 @@ border-right: 0.08em solid #666;
 }
 
 @media (max-width: 767px) {
+  .Footer{
   padding-top: .6% ;
   transition: 0.32 ease-in-out;
-  background: linear-gradient(60deg, #a0e9ff, #a0e9ff 40%, #f96318 40%, #f96318);
-  
+  background:  #a0e9ff;
 }
 
 .Footer h5{
