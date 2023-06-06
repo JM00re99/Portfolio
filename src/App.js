@@ -18,7 +18,7 @@ function App() {
       <Routes>
       <Route path='/' element={<div><Banner /><Skills /><Projects /><Contact /></div>} />
       <Route path='/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
-      <Route path='/* /index.html 200/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
+      <Route path='//' element={<div><BigSoipa /></div>} />
       <Route path='/* /index.html 200/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
       </Routes>
       <Footer />
