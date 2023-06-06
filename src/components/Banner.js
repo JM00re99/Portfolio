@@ -48,7 +48,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="aligh-items-center justify-content-md-start">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -63,8 +63,7 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Row className="justify-content-center justify-content-md-start">
-            <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
@@ -72,7 +71,7 @@ export const Banner = () => {
                   </div>
                 )}
               </TrackVisibility>
-            </Col>
+          </Col>
         </Row>
       </Container>
     </section>
