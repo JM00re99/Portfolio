@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-      <Route path='/* /index.html 200' element={<div><Banner /><Skills /><Projects /><Contact /></div>} />
-      <Route path='/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
-      <Route path='/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
-      <Route path='/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
+      <Route path='/* /index.html 200/' element={<div><Banner /><Skills /><Projects /><Contact /></div>} />
+      <Route path='/* /index.html 200/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
+      <Route path='/* /index.html 200/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
+      <Route path='/* /index.html 200/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
       </Routes>
       <Footer />
     </div>
