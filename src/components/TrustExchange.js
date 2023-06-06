@@ -63,8 +63,14 @@ export const TrustExchange = () => {
   } else {
     textContent = 'Finished prototype';
   }
+  
+  const isMobile = window.innerWidth <= 767;
+
 
   return (
+   <div className={isMobile ? 'mobile-styling' : 'desktop-styling'}>
+    {textContent}
+   </div> 
     <React.Fragment>
       <section className="TrustExchangePopUp" id="TrustExchangePopUp">
       
