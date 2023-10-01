@@ -7,6 +7,7 @@ import { Contact } from "./components/Contact";
 import { MaterialMaximise } from "./components/MaterialMaximise";
 import { BigSoipa } from "./components/BigSoipa";
 import { TrustExchange } from "./components/TrustExchange";
+import { Cloudera } from "./components/Cloudera";
 import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
       <Route path='/ProjectMaterialMaxisime' element={<div><MaterialMaximise /></div>} />
       <Route path='/ProjectBigSoipa' element={<div><BigSoipa /></div>} />
       <Route path='/ProjectTrustExchange' element={<div><TrustExchange /></div>} />
+      <Route path='/ProjectCloudera' element={<div><Cloudera /></div>} />
       </Routes>
       <Footer />
     </div>
