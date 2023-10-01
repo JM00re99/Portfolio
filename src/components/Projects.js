@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Button } from "react-bootstrap";
 import projImg1 from "../assets/img/MaterialMaximise.png";
 import projImg2 from "../assets/img/BigSoipa.png";
 import projImg3 from "../assets/img/TrustExchange.png";
+import projImg4 from "../assets/img/Cloudera.png";
 import colorSharp2 from "../assets/img/Background-projects.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,26 +26,29 @@ export const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first"><br></br>
                     <Row>
-                      <Col md={4}>
+                      <Col md={3}>
                       <h3>Material Maximise</h3>
                         <img src={projImg1} alt="Material Maximise" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectMaterialMaxisime" >See Full Project</Button>
-                         <br></br><br></br>
                       </Col>
-                      <Col md={4}>
+                      <Col md={3}>
                         <h3>Big Siopa</h3>
                         <img src={projImg2} alt="Big Soipa" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectBigSoipa" >See Full Project</Button>
-                         <br></br><br></br>
                       </Col>
-                      <Col md={4}>
+                      <Col md={3}>
                         <h3>Trust Exchange</h3>
                         <img src={projImg3} alt="Trust Exchange" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
                         <br></br><br></br>
                         <Button href="/ProjectTrustExchange">See Full Project</Button>
-                         <br></br><br></br>
+                      </Col>
+                      <Col md={3}>
+                        <h3>Cloudera</h3>
+                        <img src={projImg4} alt="Trust Exchange" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
+                        <br></br><br></br>
+                        <Button href="/ProjectCloudera">See Full Project</Button>
                       </Col>
                     </Row>
                     </Tab.Pane>
