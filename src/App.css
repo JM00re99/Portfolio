@@ -635,3 +635,96 @@ border-right: 0.08em solid #666;
   Background-color: white;
   color: #003149;
 }
+
+/************ Cloudera Project ************/
+.ClouderaHeader {
+
+  background-color: #f96318;
+  padding: 5%;
+}
+
+.ClouderaHeader h2{
+
+  color: #f96318;
+  
+}
+
+.Cloudera {
+
+  background-color: #f96318;
+  padding: 5%;
+}
+
+.Cloudera h2, .Cloudera p{
+
+  color: white;
+  
+}
+
+.ClouderaSkills {
+  background-color: white;
+  padding: 5%;
+
+}
+
+
+.ClouderaSkillsUsed {
+  background-color:#f96318;
+  padding-top: 10%;
+  padding-bottom: 2%;
+
+}
+
+.ClouderaSkillsUsed h2 {
+ 
+  color: white;
+
+}
+
+.ClouderaSkills h2{
+  color: #003149
+;
+  
+}
+
+.ClouderaSkillsCard{
+	
+  background-color: #003149;
+  margin-bottom: 2%;
+}
+
+.ClouderaSkillsCard p, .ClouderaSkillsCard h3{
+	
+  color: white;
+}
+
+.ClouderaProblem {
+  background-color: #f96318;
+  padding: 5%;
+}
+.ClouderaProblem p, .ClouderaProblem h2{
+	
+  color: white;
+}
+.ClouderaPopUp{
+  top: 2%;
+  Background-color: white;
+  color: #003149;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%; /* Adjust this value to position the button vertically */
+  left: 50%; /* Adjust this value to position the button horizontally */
+  transform: translate(-50%, -50%); /* Center the button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round the button corners */
+}
+
+.overlay-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
